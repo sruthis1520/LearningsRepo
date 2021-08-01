@@ -39,3 +39,9 @@ git config --list
 
 gives ur full details like user.name,email and so n so
 
+
+now to save further changes, again do
+git add -testme.txt
+
+git commit -m"message"
+
