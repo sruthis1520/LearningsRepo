@@ -1,1 +1,41 @@
 for test
+
+installed git for windows
+
+created a folder in d drive, git-demo
+
+in gt cmd, changed from C:/Users to D by giving d:
+
+then cd (drag n drop git-demo)
+
+git init
+
+in git-demo, added a sample text file testme.txt
+
+git status gave
+ 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        testme.txt
+
+git add --all
+
+git status
+
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+git commit -m"first commit"
+
+to change email or user.name
+git config --global user.email "sruthis1520@gmail.com"
+
+
+git config --list
+
+gives ur full details like user.name,email and so n so
+
