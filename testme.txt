@@ -64,6 +64,8 @@ switch to the remote main branch from local master branch by
 
 git branch -M main
 
+this will change current branch name to main
+
 git status
 On branch main
 nothing to commit, working tree clean
@@ -87,5 +89,8 @@ test
 
 
 checking
+
+
+git push -f origin main
 
 
