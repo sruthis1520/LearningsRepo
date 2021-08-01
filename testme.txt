@@ -45,3 +45,47 @@ git add -testme.txt
 
 git commit -m"message"
 
+
+
+
+
+
+
+
+now lets push this code to remote github repo.
+
+from git hub, creted a new repository using Create repository with name LearningsRepo and a desc. 
+No readme as of now.
+
+
+in git cmd,
+
+switch to the remote main branch from local master branch by
+
+git branch -M main
+
+git status
+On branch main
+nothing to commit, working tree clean
+
+git remote add origin https://github.com/sruthis1520/LearningsRepo.git
+
+git push -u origin main
+
+info: please complete authentication in your browser...
+
+give email/pwd to connect to ur git hub acc.
+now data transffered to remote
+
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+test
+
+
+checking
+
+
